@@ -1,0 +1,71 @@
+h1::first-letter{
+    color:red;
+    font-size: 3rem;
+
+}
+
+p::first-line{
+    color: blueviolet;
+    font-size: 2rem;
+}
+ul li::marker{
+    content: "🎥";
+}
+
+P::selection{
+    background-color: peru;
+    color:azure;
+}
+
+h1::before{
+    content:"📢";
+}
+
+h1::after{
+    content:"⚔️";
+}
+
+a{
+    font-size: 2rem;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color:yellow;
+    background-color: darkblue;
+}
+
+p:hover{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+img{
+    width:300px;
+    border:2px solid black;
+}
+
+img:hover{
+   /* box-shadow: 10px 10px 10px black;*/
+   filter:invert(100%);
+}
+
+body{
+    background-color: rgb(189, 126, 126);
+}
+
+iframe{
+    width: 500px;
+    height: 500px;
+}
